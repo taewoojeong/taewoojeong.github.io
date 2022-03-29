@@ -8,7 +8,7 @@ sidebar:
   nav: "sidebar-contents"
 ---
 
-## <h2> - {{ site.categories.BOJ | size }} 개의 포스트 </h2>
+## - {{ site.categories.BOJ | size }} 개의 포스트
 
 {% assign posts = site.categories.BOJ %}
 
