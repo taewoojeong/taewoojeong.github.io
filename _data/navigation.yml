@@ -1,7 +1,15 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Category"
+    url: /categories/
+  - title: "Algorithm"
+    url: /categories/boj
+  - title: "Web"
+    url: /categories/web
+  - title: "Programming Language"
+    url: /categories/language
+  - title: "Tag"
+    url: /tags/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,3 +18,36 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+#sidebar
+sidebar-contents:
+  - title: Agorithm
+    children:
+      - title: "백준"
+        children:
+          - title: "C/C++"
+            url: /categories/boj/c-c++
+
+  - title: Web
+    children:
+      - title: "Front-end"
+        children:
+          - title: "HTML"
+            url: /categories/web/front-end/html
+          - title: "CSS"
+            url: /categories/web/front-end/css
+          - title: "Javascript"
+            url: /categories/web/front-end/javascript
+          - title: "Typescript"
+            url: /categories/web/front-end/typescript
+          - title: "SCSS"
+            url: /categories/web/front-end/scss
+          - title: "React"
+            url: /categories/web/front-end/react
+
+  - title: Programming Language
+    children:
+      - title: "C/C++"
+        url: /categories/language/c-c++
+      - title: "JAVA"
+        url: /categories/language/java
