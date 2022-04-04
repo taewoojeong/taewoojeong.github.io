@@ -3,11 +3,29 @@ main:
   - title: "Category"
     url: /categories/
   - title: "Algorithm"
-    url: /categories/boj
-  - title: "Web"
-    url: /categories/web
+    sublinks:
+      - title: "C/C++"
+        url: /categories/bojcpp
+  - title: "Front-end"
+    sublinks:
+      - title: "HTML"
+        url: /categories/front-endhtml
+      - title: "CSS"
+        url: /categories/front-endcss
+      - title: "Javascript"
+        url: /categories/front-endjavascript
+      - title: "Typescript"
+        url: /categories/front-endtypescript
+      - title: "SCSS"
+        url: /categories/front-endscss
+      - title: "React"
+        url: /categories/front-endreact
   - title: "Programming Language"
-    url: /categories/language
+    sublinks:
+      - title: "C/C++"
+        url: /categories/languagecpp
+      - title: "JAVA"
+        url: /categories/languagejava
   - title: "Tag"
     url: /tags/
   # - title: "About"
@@ -26,28 +44,26 @@ sidebar-contents:
       - title: "백준"
         children:
           - title: "C/C++"
-            url: /categories/boj/c-c++
+            url: /categories/bojc-c++
 
-  - title: Web
+  - title: "Front-end"
     children:
-      - title: "Front-end"
-        children:
-          - title: "HTML"
-            url: /categories/web/front-end/html
-          - title: "CSS"
-            url: /categories/web/front-end/css
-          - title: "Javascript"
-            url: /categories/web/front-end/javascript
-          - title: "Typescript"
-            url: /categories/web/front-end/typescript
-          - title: "SCSS"
-            url: /categories/web/front-end/scss
-          - title: "React"
-            url: /categories/web/front-end/react
+      - title: "HTML"
+        url: /categories/front-endhtml
+      - title: "CSS"
+        url: /categories/front-endcss
+      - title: "Javascript"
+        url: /categories/front-endjavascript
+      - title: "Typescript"
+        url: /categories/front-endtypescript
+      - title: "SCSS"
+        url: /categories/front-endscss
+      - title: "React"
+        url: /categories/front-endreact
 
   - title: Programming Language
     children:
       - title: "C/C++"
-        url: /categories/language/c-c++
+        url: /categories/languagecpp
       - title: "JAVA"
-        url: /categories/language/java
+        url: /categories/languagejava

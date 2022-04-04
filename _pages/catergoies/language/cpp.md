@@ -1,16 +1,16 @@
 ---
 layout: archive
-title: Programming Language
-permalink: /categories/language
+title: CPP
+permalink: /categories/languagecpp
 autor_profile: true
 sidebar:
   title: Posts
   nav: "sidebar-contents"
 ---
 
-## - {{ site.categories.LANGUAGE | size }} 개의 포스트
+## - {{ site.categories.LANGUAGECPP | size }} 개의 포스트
 
-{% assign posts = site.categories.LANGUAGE %}
+{% assign posts = site.categories.LANGUAGECPP %}
 
 {% for post in posts %}
 {% include archive-single.html type=page.entries_layout %}
