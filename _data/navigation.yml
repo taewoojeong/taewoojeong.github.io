@@ -41,10 +41,8 @@ main:
 sidebar-contents:
   - title: Agorithm
     children:
-      - title: "백준"
-        children:
-          - title: "C/C++"
-            url: /categories/bojc-c++
+      - title: "C/C++"
+        url: /categories/bojcpp
 
   - title: "Front-end"
     children:
