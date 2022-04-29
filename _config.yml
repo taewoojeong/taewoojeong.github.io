@@ -18,7 +18,7 @@ minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark",
 locale: "ko-KR"
 title: "taeveloper"
 title_separator: "-"
-subtitle: "taewoo's developer blog"# site tagline that appears below site title in masthead
+subtitle: "taewoo's developer blog" # site tagline that appears below site title in masthead
 name: "정태우"
 description: "A blog that posts what taewoo studied."
 url: "https://taewoojeong.github.io"
@@ -32,6 +32,7 @@ words_per_minute: 200
 comments:
   provider: "disqus" # false (default), "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
+    comments: true
     shortname: "taewoojeong.github.io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
