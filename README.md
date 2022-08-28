@@ -1,2 +1,2 @@
 # taewoojeong.github.io
-GitHub blog 
+GitHub blog
